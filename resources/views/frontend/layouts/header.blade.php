@@ -68,7 +68,7 @@
                                 <li><a class="dropdown-item" href="{{route('hospitalcommittee')}}">Hospital Committee</a></li>
                                 <li><a class="dropdown-item" href="{{route('communityhospitalcommittee')}}">Community Hospital Committee</a></li>
                                 <li><a class="dropdown-item" href="{{route('educationcommittee')}}">Education Committee</a></li>
-                                <li><a class="dropdown-item" href="{{route('healtheducationcommittee')}}">Health Education Committee</a></li>
+                                <li><a class="dropdown-item" href="{{--{{route('healtheducationcommittee')}}--}}">Health Education Committee</a></li>
 
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Vission</a></li>

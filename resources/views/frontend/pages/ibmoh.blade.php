@@ -69,7 +69,7 @@
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-                <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+                {{--<li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
                 <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">Drop Down 1</a></li>
@@ -86,7 +86,7 @@
                         <li><a href="#">Drop Down 3</a></li>
                         <li><a href="#">Drop Down 4</a></li>
                     </ul>
-                </li>
+                </li>--}}
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -171,7 +171,7 @@
 
             <div class="row">
                 <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+                    <a href="https://youtu.be/HVIJ9bMdrhg" class="glightbox play-btn mb-4"></a>
                 </div>
 
                 <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
@@ -181,24 +181,24 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
                         <h4 class="title"><a href="">Excellent Services</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <p class="description">Our Special Team provide proper service for you.</p>
                     </div>
 
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-gift"></i></div>
                         <h4 class="title"><a href="">Qualified Doctors</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        <p class="description">Renowned qualified doctors give you proper treatment.</p>
                     </div>
 
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-atom"></i></div>
                         <h4 class="title"><a href="">Emergency Departments</a></h4>
-                        <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        <p class="description">24x7 hours we are ready for you better service.</p>
                     </div>
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-atom"></i></div>
                         <h4 class="title"><a href="">Latest Medical equipment</a></h4>
-                        <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        <p class="description">New enovation medical equipment are available.</p>
                     </div>
 
                 </div>
@@ -224,7 +224,7 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
                         <i class="far fa-hospital"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="34" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Departments</p>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="fas fa-flask"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Labs</p>
                     </div>
                 </div>
@@ -256,55 +256,55 @@
 
             <div class="section-title">
                 <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>We provide verities service in our hospital.</p>
             </div>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-heartbeat"></i></div>
-                        <h4><a href="">Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        <h4><a href="">CT SCAN</a></h4>
+                        <p>160 Slice CT SCAN</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-pills"></i></div>
-                        <h4><a href="">Sed ut perspiciatis</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        <h4><a href="">Memography</a></h4>
+                        <p>Latest Machine</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-hospital-user"></i></div>
-                        <h4><a href="">Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        <h4><a href="">Digital Xray</a></h4>
+                        <p>We have latest Xray Machine</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-dna"></i></div>
-                        <h4><a href="">Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        <h4><a href="">ECHO Color dopler</a></h4>
+                        <p></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-wheelchair"></i></div>
-                        <h4><a href="">Dele cardo</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                        <h4><a href="">ECHO Cardio Graphay</a></h4>
+                        <p>r</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                        <h4><a href="">Divera don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                        <h4><a href="">Advance Laparoscopy</a></h4>
+                        <p></p>
                     </div>
                 </div>
 
@@ -319,7 +319,7 @@
 
             <div class="section-title">
                 <h2>Make an Appointment</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>This Service is not available.</p>
             </div>
 
             <form action="" method="post" role="form" class="php-email-form">
@@ -488,11 +488,13 @@
 
                 <div class="col-lg-6">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-1.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/habibur rahman.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Medical Officer</span>
-                            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                            <h4>Habibur Rahman</h4>
+                            <span>MBBS.FCPS(Medicine)MD(Gastroenterology)</span>
+                            <p>Professor Department of Gastroenterology
+                                Sir Solimulla Medical College MitfordHospital.Dhaka
+                            </p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -505,11 +507,18 @@
 
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-2.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/Mizanur rahman.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Anesthesiologist</span>
-                            <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                            <h4>Dr.Md.Mizanur Rahaman</h4>
+                            <span>MBBS,MS(Ortho)</span>
+                            <p>Nitor (Pangu hospital)Dhaka
+                                A.O.Spine Basic (India),A.O.Trama Basic (India)
+                                Advanced A.o.Spine Course (Malaysia, Singapore)
+                                Training in Plastic & Trauma Reconstruction Surgery
+                                Assistant Professor (Orthopedic Surgery
+                                Mugda Medical College& Hospital
+                                Orthopedic, Trauma ,Spine surgeon
+                            </p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -522,11 +531,15 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-3.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/hasina afroz.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>Cardiology</span>
-                            <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                            <h4>Professor Dr. Hasina Afroz</h4>
+                            <span>MBBS.MCPS,FCPS,MS
+Gynecologist and Surgeon
+</span>
+                            <br>Special Traning on Laparoscopic Gynae Surgery</br>
+                                Special Traning on Urogynaecoligy & Infertility
+                            </p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -539,11 +552,11 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/Ahmed Murtuza.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Neurosurgeon</span>
-                            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                            <h4>Professor Dr.Ahmed Murtuza chowdhury </h4>
+                            <span>MBBS,FCPS (Child)</span>
+                            <p>Dr.MR khan Shishu Hospital & Institute child Health </p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -560,7 +573,7 @@
     </section><!-- End Doctors Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    {{--<section id="faq" class="faq section-bg">
         <div class="container">
 
             <div class="section-title">
@@ -619,7 +632,7 @@
             </div>
 
         </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section><!-- End Frequently Asked Questions Section -->--}}
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -631,12 +644,12 @@
                     <div class="swiper-slide">
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
-                                <img src="{{url('public/hospital/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <img src="{{--{{url('public/hospital/img/testimonials/testimonials-1.jpg')}}--}}" class="testimonial-img" alt="">
+                                <h3>আল হাদীস</h3>
+                                <h4></h4>
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                    রাসূল (সাঃ) বলেছেন, যখন তমি কোন রুগীকে দেখতে যাবে তাকে তোমার জন্য দোয়া করতে বলবে। কেননা তার দোয়া ফেরেশতাদের দোয়ার মতো।
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -646,12 +659,13 @@
                     <div class="swiper-slide">
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <img src="{{--assets/img/testimonials/testimonials-2.jpg--}}" class="testimonial-img" alt="">
+                                <h3>আল হাদীস</h3>
+                                <h4></h4>
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    কোন মুসলিম যখন তার অসুস্থ  মুসলিম ভাইকে দেখতে যায় তখন সে জান্নাতের ফল আহরন করতে থাকে যতক্ষন না সে ফিরে আসে।
+                                    -মুসলিম শরিফ
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -662,11 +676,12 @@
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <h3>আল কুরআন</h3>
+                                <h4></h4>
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    রমজান মাস যাতে অবতীণ হয়েছে আল-কুরআনঃ যা মানুষের জন্য হেদায়াত এবং সুস্পষ্ট  পথ নির্দেশ আর (ন্যয় ও অন্যায়ের মধ্যে) র্পাথক্য বিধানকারী।
+                                    সূরা- আল বাক্বারাহঃ ১৮৫
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -677,11 +692,14 @@
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                                <h3>আল কুরআন</h3>
+                                <h4></h4>
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+
+                                    আর যিনার নিকটবর্তী হইওনা, ইহা অস্লীল ও নিকৃষ্ট আচরন।
+                                    সূরা-বনীইসরাঈলঃ৩২
+
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -692,11 +710,12 @@
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                                <h3>আল কুরআন</h3>
+                                <h4></h4>
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                    কেহ অনুপরিমান সৎ কর্ম করিলে  সে তাহা দেখিবে এবং কেহ অনু পরিমান অসৎ কর্ম করিলে তাহাও দেখিবে।
+                                    সূরা-যিলযালঃ৭,৮
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -725,66 +744,66 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-1.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/1.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/1.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-2.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/2.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/2.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-3.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/3.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/3.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-4.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/4.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/4.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-5.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/5.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/5.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-6.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/6.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/6.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/img/gallery/gallery-7.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/img/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/7.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/7.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item">
+                    {{--<div class="gallery-item">
                         <a href="{{url('public/hospital/img/gallery/gallery-8.jpg')}}" class="galelry-lightbox">
                             <img src="{{url('public/hospital/img/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
                         </a>
-                    </div>
+                    </div>--}}
                 </div>
 
             </div>
@@ -803,7 +822,7 @@
         </div>
 
         <div>
-            <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+            <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?q=islami%20bank%20Hospital%20motijheel&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div class="container">
@@ -834,7 +853,7 @@
 
                 </div>
 
-                <div class="col-lg-8 mt-5 mt-lg-0">
+               {{-- <div class="col-lg-8 mt-5 mt-lg-0">
 
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
@@ -859,7 +878,7 @@
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
 
-                </div>
+                </div>--}}
 
             </div>
 
@@ -908,13 +927,13 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-newsletter">
+                {{--<div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Join Our Newsletter</h4>
                     <p>You can learn medical health care and protect your nation.</p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
                     </form>
-                </div>
+                </div>--}}
 
             </div>
         </div>

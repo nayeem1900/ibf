@@ -4,7 +4,7 @@
             <!--header section-->
 
             <!--Marquee part-->
-            <marquee behavior="scroll" direction="left">শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু। !</marquee>
+            <marquee behavior="scroll" direction="left">শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।</marquee>
 
 
             <!----slider section--->
