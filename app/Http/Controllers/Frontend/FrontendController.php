@@ -22,6 +22,14 @@ class FrontendController extends Controller
         $data['logo']=Logo::first();
         return view('frontend.pages.ibch',$data);
     }
+    public function ibhmirpur(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.ibh_mirpur',$data);
+    }
+    public function ibhmugdha(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.ibh_mugdha',$data);
+    }
     public function ibmoh(){
         $data['logo']=Logo::first();
         return view('frontend.pages.ibmoh',$data);
@@ -37,6 +45,14 @@ class FrontendController extends Controller
     public function jakat(){
         $data['logo']=Logo::first();
         return view('frontend.pages.jakat',$data);
+    }
+    public function hospitalinfo(){
+    $data['logo']=Logo::first();
+    return view('frontend.pages.hospital_info',$data);
+    }
+    public function jobapply(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.job_apply',$data);
     }
     public function foundationcommittee(){
         $data['logo']=Logo::first();
@@ -74,12 +90,12 @@ class FrontendController extends Controller
         return view('frontend.pages.etender',$data);
 
     }
-    public function carrier(){
+    public function career(){
 
         $data['logo']=Logo::first();
         $data['allData']=Carrier::all();
 
-        return view('frontend.pages.carrier',$data);
+        return view('frontend.pages.career',$data);
 
     }
     public function contact(){

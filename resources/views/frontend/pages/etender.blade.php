@@ -15,7 +15,7 @@
                         <li class="list-group-item"><a href="">Supplier Login</a> </li>
                        <p class="card-text">Hot LIne :+02 7125567</p>
 
-                        <li class="list-group-item">Tender NOtice</li>
+                        <li class="list-group-item">Tender Notice</li>
 
                     </ul>
                 </div>

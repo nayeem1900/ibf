@@ -12,7 +12,7 @@
                         Carrier
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="http://114.129.9.150:8080/website/page/carrer/">Apply for job</a> </li>
+                        <li class="list-group-item"><a href="{{route('job-apply')}}">Apply for job</a> </li>
                        <p class="card-text">Hot LIne :+02 7125567</p>
 
                         <li class="list-group-item">Carrier Notice</li>

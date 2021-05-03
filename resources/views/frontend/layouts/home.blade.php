@@ -78,7 +78,7 @@
                                     News & Events
                                 </div>
                                 <ul class="list-group list-group-flush">
-
+                                    <li class="list-group-item"><a href="{{route('hospital-info')}}">Hospital-Info</a> </li>
                                 </ul>
                             </div>
 
@@ -90,11 +90,11 @@
                                 <div class="card-header">
                                     Links
                                 </div>
-                                <ul class="list-group list-group-flush">
+                                <ul class="list-group list-group-flush" >
                                     <li class="list-group-item"><a href="http://114.129.9.150:7070/ERP/login/auth">HR</a></li>
-                                    <li class="list-group-item"><a href="http://114.129.9.39:8080/accounts/users/login">Accounts</a></li>
-                                    <li class="list-group-item"><a href="http://114.129.9.63/PmisReport/">PMIS</a></li>
-                                    <li class="list-group-item"><a href="http://114.129.9.63/leave/">Leave</a></li>
+                                    <li class="list-group-item"><a href="http://114.129.9.111:8080/accounts/users/login">Accounts</a></li>
+                                    <li class="list-group-item"><a href="http://114.129.9.111:8082/PmisReport/">PMIS</a></li>
+                                    <li class="list-group-item"><a href="http://114.129.9.111:8081/leave/">Leave</a></li>
                                     <li class="list-group-item"><a href="https://www.islamibankbd.com/">Islami Bank Bangladesh</a> </li>
 
 

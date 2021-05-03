@@ -19,7 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Frontend\FrontendController@index')->name('index');
 Route::get('ibch', 'Frontend\FrontendController@ibch')->name('ibch');
+Route::get('ibhmirpur', 'Frontend\FrontendController@ibhmirpur')->name('ibhmirpur');
 Route::get('ibmoh', 'Frontend\FrontendController@ibmoh')->name('ibmoh');
+Route::get('ibhmugdha', 'Frontend\FrontendController@ibhmugdha')->name('ibhmugdha');
 Route::get('ibch_manikgonj', 'Frontend\FrontendController@ibch_manikgonj')->name('ibchmanikgonj');
 Route::get('at_glance', 'Frontend\FrontendController@atglance')->name('atglance');
 Route::get('foundation_committee', 'Frontend\FrontendController@foundationcommittee')->name('foundationcommittee');
@@ -31,8 +33,10 @@ Route::get('education_committee', 'Frontend\FrontendController@educationcommitte
 Route::get('health_education_committee', 'Frontend\FrontendController@healtheducationcommittee')->name('healtheducationcommittee');
 Route::get('contact', 'Frontend\FrontendController@contact')->name('contact');
 Route::get('etender', 'Frontend\FrontendController@etender')->name('etender');
-Route::get('carrier', 'Frontend\FrontendController@carrier')->name('carrier');
+Route::get('career', 'Frontend\FrontendController@career')->name('career');
 Route::get('jakat', 'Frontend\FrontendController@jakat')->name('jakat');
+Route::get('hospital-info', 'Frontend\FrontendController@hospitalinfo')->name('hospital-info');
+Route::get('job-apply', 'Frontend\FrontendController@jobapply')->name('job-apply');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

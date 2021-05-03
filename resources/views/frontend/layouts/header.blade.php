@@ -21,8 +21,8 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{route('ibch')}}">Islami Bank Central Hospital</a></li>
                                 <li><a class="dropdown-item" href="{{route('ibmoh')}}">Islami Bank Hospital Motijheel</a></li>
-                                <li><a class="dropdown-item" href="#">Islami Bank Hospital Mirpur</a></li>
-                                <li><a class="dropdown-item" href="#">Islami Bank Hospital Mughda</a></li>
+                                <li><a class="dropdown-item" href="{{route('ibhmirpur')}}">Islami Bank Hospital Mirpur</a></li>
+                                <li><a class="dropdown-item" href="{{route('ibhmugdha')}}">Islami Bank Hospital Mughda</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Spetalize Hospital,Nayapalton</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Hospital Khulna</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Hospital Barisal</a></li>
@@ -85,7 +85,7 @@
                             <a class="nav-link" href="#">Media Room</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('etender')}}">Etender</a>
+                            <a class="nav-link" href="{{route('etender')}}">E-tender</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Forms & Publication</a>
@@ -94,7 +94,7 @@
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('carrier')}}">Career</a>
+                            <a class="nav-link" href="{{route('career')}}">Career</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('contact')}}">Contact Us</a>
