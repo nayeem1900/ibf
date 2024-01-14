@@ -5,8 +5,8 @@
             JOb Information
         </div>
         <div class="card-body">
-            <h5 class="card-title">Please send Your CV below email address</h5>
-            <p class="card-text">ibfhrd17@gmail.com</p>
+            <h5 class="card-title">Please Click bellow</h5>
+            <p class="card-text"><a href="https://www.bdjobs.com/">Apply</a> </p>
 
         </div>
 

@@ -22,6 +22,7 @@ Route::get('ibch', 'Frontend\FrontendController@ibch')->name('ibch');
 Route::get('ibhmirpur', 'Frontend\FrontendController@ibhmirpur')->name('ibhmirpur');
 Route::get('ibmoh', 'Frontend\FrontendController@ibmoh')->name('ibmoh');
 Route::get('ibhmugdha', 'Frontend\FrontendController@ibhmugdha')->name('ibhmugdha');
+Route::get('ibh_luxmipur', 'Frontend\FrontendController@ibhluxmipur')->name('ibh_luxmipur');
 Route::get('ibch_manikgonj', 'Frontend\FrontendController@ibch_manikgonj')->name('ibchmanikgonj');
 Route::get('at_glance', 'Frontend\FrontendController@atglance')->name('atglance');
 Route::get('foundation_committee', 'Frontend\FrontendController@foundationcommittee')->name('foundationcommittee');
@@ -31,11 +32,13 @@ Route::get('hospital_committee', 'Frontend\FrontendController@hospitalcommittee'
 Route::get('community_hospital_committee', 'Frontend\FrontendController@communityhospitalcommittee')->name('communityhospitalcommittee');
 Route::get('education_committee', 'Frontend\FrontendController@educationcommittee')->name('educationcommittee');
 Route::get('health_education_committee', 'Frontend\FrontendController@healtheducationcommittee')->name('healtheducationcommittee');
+Route::get('nursing_barisal', 'Frontend\FrontendController@nursingbarisal')->name('nursingbarisal');
 Route::get('contact', 'Frontend\FrontendController@contact')->name('contact');
 Route::get('etender', 'Frontend\FrontendController@etender')->name('etender');
 Route::get('career', 'Frontend\FrontendController@career')->name('career');
 Route::get('jakat', 'Frontend\FrontendController@jakat')->name('jakat');
 Route::get('hospital-info', 'Frontend\FrontendController@hospitalinfo')->name('hospital-info');
+Route::get('educational-institute', 'Frontend\FrontendController@educationinfo')->name('educational-institute');
 Route::get('job-apply', 'Frontend\FrontendController@jobapply')->name('job-apply');
 Auth::routes();
 
@@ -99,6 +102,16 @@ Route::group(['middleware'=>'auth'],function (){
         Route::post('/update/{id}', 'Backend\CarrierController@update')->name('carriers.update');
         Route::post('/delete/{id}', 'Backend\CarrierController@delete')->name('carriers.delete');
         Route::post('/download', 'Backend\CarrierController@download')->name('carriers.download');
+    });
+
+    Route::prefix ('departments')->group (function () {
+
+        Route::get('/view', 'Backend\DepartmentController@view')->name('departments.view');
+        Route::get('/add', 'Backend\DepartmentController@add')->name('departments.add');
+        Route::post('/store', 'Backend\DepartmentController@store')->name('departments.store');
+        Route::get('/edit/{id}', 'Backend\DepartmentController@edit')->name('departments.edit');
+        Route::post('/update/{id}', 'Backend\DepartmentController@update')->name('departments.update');
+
     });
 
 });

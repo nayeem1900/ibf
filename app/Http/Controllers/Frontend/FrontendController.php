@@ -34,6 +34,10 @@ class FrontendController extends Controller
         $data['logo']=Logo::first();
         return view('frontend.pages.ibmoh',$data);
     }
+    public function ibhluxmipur(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.ibh-luxmipur',$data);
+    }
     public function ibch_manikgonj(){
         $data['logo']=Logo::first();
         return view('frontend.pages.ibch_manikgonj',$data);
@@ -50,6 +54,11 @@ class FrontendController extends Controller
     $data['logo']=Logo::first();
     return view('frontend.pages.hospital_info',$data);
     }
+    public function educationinfo(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.educational_institute',$data);
+    }
+
     public function jobapply(){
         $data['logo']=Logo::first();
         return view('frontend.pages.job_apply',$data);
@@ -102,4 +111,10 @@ class FrontendController extends Controller
         $data['logo']=Logo::first();
         return view('frontend.pages.contact',$data);
     }
+
+    public function nursingbarisal(){
+
+        return view('frontend.pages.islami_bank_nursing_barisal');
+    }
+
 }

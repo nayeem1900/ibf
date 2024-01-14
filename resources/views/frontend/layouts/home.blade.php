@@ -4,6 +4,10 @@
             <!--header section-->
 
             <!--Marquee part-->
+            <div class ="1">
+
+
+            </div>
             <marquee behavior="scroll" direction="left">শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।</marquee>
 
 
@@ -79,6 +83,7 @@
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><a href="{{route('hospital-info')}}">Hospital-Info</a> </li>
+                                    <li class="list-group-item"><a href="{{route('educational-institute')}}">Educational Institute</a> </li>
                                 </ul>
                             </div>
 
@@ -91,7 +96,7 @@
                                     Links
                                 </div>
                                 <ul class="list-group list-group-flush" >
-                                    <li class="list-group-item"><a href="http://114.129.9.150:7070/ERP/login/auth">HR</a></li>
+                                    <li class="list-group-item"><a href="http://192.168.88.6:7071/ERP/login/auth">HR</a></li>
                                     <li class="list-group-item"><a href="http://114.129.9.111:8080/accounts/users/login">Accounts</a></li>
                                     <li class="list-group-item"><a href="http://114.129.9.111:8082/PmisReport/">PMIS</a></li>
                                     <li class="list-group-item"><a href="http://114.129.9.111:8081/leave/">Leave</a></li>
